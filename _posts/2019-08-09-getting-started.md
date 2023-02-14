@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Just Testing
 author: cotes
 date: 2019-08-09 20:55:00 +0800
 categories: [Blogging, Tutorial]
@@ -26,7 +26,7 @@ Create a new repository from the [**Chirpy Starter**][use-starter] and name it `
 
 #### Option 2. Forking on GitHub
 
-[Fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) on GitHub and rename it to `<GH_USERNAME>.github.io`. Please note that the default branch code is in development.  If you want the site to be stable, please switch to the [latest tag][latest-tag] and start writing.
+[Fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) on GitHub and rename it to `<GH_USERNAME>.github.io`. Please note that the default branch code is in development. If you want the site to be stable, please switch to the [latest tag][latest-tag] and start writing.
 
 And then execute:
 
@@ -35,7 +35,7 @@ $ bash tools/init
 ```
 
 > If you don't want to deploy your site on GitHub Pages, append option `--no-gh` at the end of the above command.
-{: .prompt-info }
+> {: .prompt-info }
 
 The above command will:
 
@@ -151,6 +151,7 @@ It depends on how you use the theme:
   - gem "jekyll-theme-chirpy", "~> 3.2", ">= 3.2.1"
   + gem "jekyll-theme-chirpy", "~> 3.3", ">= 3.3.0"
   ```
+
   {: .nolineno file="Gemfile" }
 
   And then execute the following command:
@@ -162,7 +163,7 @@ It depends on how you use the theme:
   As the version upgrades, the critical files (for details, see the [Startup Template][starter]) and configuration options will change. Please refer to the [Upgrade Guide](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide) to keep your repo's files in sync with the latest version of the theme.
 
 - If you forked from the source project (there will be `gemspec` in the `Gemfile`{: .filepath} of your site), then merge the [latest upstream tags][latest-tag] into your Jekyll site to complete the upgrade.
-The merge is likely to conflict with your local modifications. Please be patient and careful to resolve these conflicts.
+  The merge is likely to conflict with your local modifications. Please be patient and careful to resolve these conflicts.
 
 [starter]: https://github.com/cotes2020/chirpy-starter
 [use-starter]: https://github.com/cotes2020/chirpy-starter/generate
