@@ -4,7 +4,7 @@ author: nabin
 date: 2022-02-02 20:55:00 +0800
 categories: [Blogging, Internship]
 tags: [intern]
-pin: true
+pin: false
 ---
 
 ## About Aktech Labs
