@@ -28,23 +28,23 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: nabin-nath # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: nabin_nath9 # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Nabin Nath
+  email: nabinnath9@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://twitter.com/nabin_nath9 # change to your twitter homepage
+    - https://github.com/nabin-nath # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/nabinnath9
 
 google_site_verification: # fill in to your verification string
 
@@ -85,7 +85,7 @@ avatar: "/commons/avatar.jpg"
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: "giscus"
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -95,11 +95,11 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
+    repo: "nabin-nath/nabin-nath.github.io"
+    repo_id: "R_kgDOI9bdmg"
+    category: "General"
+    category_id: "DIC_kwDOI9bdms4CURaD"
+    mapping: "pathname"
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
