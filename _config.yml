@@ -25,7 +25,7 @@ tagline: Software Engineer in making # it will display as the sub-title
 description: >- # used by seo meta and the atom feed
   Hello 👋, I am Nabin Nath, a final year ECE student from NIT Hamirpur, India.
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://nabin-nath.github.io"
 
 github:
   username: nabin-nath # change to your github username
