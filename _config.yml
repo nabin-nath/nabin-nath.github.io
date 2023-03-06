@@ -79,7 +79,7 @@ theme_mode: # [light|dark]
 img_cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://media.licdn.com/dms/image/D4D03AQGiEODLio9aPQ/profile-displayphoto-shrink_400_400/0/1664299025132?e=1681948800&v=beta&t=CrlB5ylTDwo-AK5LwjNsdkffqqOYioYLcQesVJSt6DI"
+avatar: "/assets/img/postsImages/nabin-nath.jpeg"
 
 # boolean type, the global switch for ToC in posts.
 toc: true
