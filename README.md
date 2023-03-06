@@ -41,4 +41,4 @@ After a while, navigate to the site at [localhost][localhost].
 
 [demo]: https://nabin-nath.github.io/
 [docs]: https://chirpy.cotes.info/
-[localhost]: http://localhost:4000/
+[localhost]: http://127.0.0.1:4000/
