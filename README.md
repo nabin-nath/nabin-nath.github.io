@@ -1,43 +1,44 @@
-<div align="">
-  
+## Live Demo
+
+[**Live Demo →**][demo]
+
 ## How to setup?
 
-  </p>
-</details>
+Before starting, please follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`. In addition, [Git](https://git-scm.com/) is also required to be installed.
 
-## Contributing
+### Step 1. Creating a New Site
 
-Welcome to report bugs, help improve the code or submit new features.
-For more information, please see the ["Contributing Guidelines"][contribute-guide].
+Create a new repository from the [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter/generate) and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
 
-## Credits
+### Step 2. Installing Dependencies
 
-This theme is mainly built with [Jekyll][jekyllrb] ecosystem,
-[Bootstrap][bootstrap], [Font Awesome][icons] and some other [wonderful tools][lib].
-The avatar and favicon design come from [Clipart Max][image].
+Before running for the first time, go to the root directory of your site, and install dependencies as follows:
 
-Thanks to all the [contributors][contributors]. Also, folks who submitted issues
-or unmerged PRs should not be forgotten. Because they reported bugs, shared ideas,
-or inspired me to write more readable documentation.
+```console
+$ bundle
+```
 
-Last but not least, thanks to [JetBrains][jetbrains] for providing the
-_Open Source Development_ license.
+### Step 3. Running Local Server
 
-## License
+Run the following command in the root directory of the site:
 
-This work is published under [MIT][mit] License.
+```console
+$ bundle exec jekyll s
+```
 
-<!-- ReadMe links -->
+Or run with Docker:
 
-[jekyllrb]: https://jekyllrb.com/
-[bootstrap]: https://getbootstrap.com/
-[icons]: https://fontawesome.com/
-[image]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/.github/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
-[donation]: https://sponsor.cotes.page/
-[mit]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+```console
+$ docker run -it --rm \
+    --volume="$PWD:/srv/jekyll" \
+    -p 4000:4000 jekyll/jekyll \
+    jekyll serve
+```
+
+After a while, navigate to the site at [localhost][localhost].
+
+<!-- Readme Links -->
+
+[demo]: https://nabin-nath.github.io/
+[docs]: https://chirpy.cotes.info/
+[localhost]: http://localhost:4000/
