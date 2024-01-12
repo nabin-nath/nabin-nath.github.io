@@ -1,6 +1,5 @@
 ---
 title: Internship at Aktech Labs
-author: nabin
 date: 2022-02-02 20:55:00 +0800
 categories: [Blogging, Internship]
 tags: [intern]
